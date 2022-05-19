@@ -8,3 +8,5 @@
 </p>
 
 > Automatic tool for selfhosting a Eaglercraft server on Windows & Linux (soon)
+
+Are you too lazy to make a Eaglercraft Server yourself or your just dumb asf. Eaglerhost got your back with a automatic system to selfhost your server!
