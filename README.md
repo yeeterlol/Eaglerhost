@@ -9,5 +9,9 @@
 
 > Automatic tool for selfhosting a Eaglercraft server on Windows & Linux (soon)
 
+## Info
+Eaglerhost is a tool which allows you to selfhost a Eaglercraft server if you are
+just too fucking lazy to do some easy shit. We support [Multiport](https://github.com/ayunami2000/ayunMultiPort) and
+the [basic server](https://github.com/LAX1DUDE/eaglercraft/tree/main/stable-download) too! If you are too lazy, try today!
 ## WIP
-> Linux support
+* Linux support
