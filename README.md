@@ -6,5 +6,5 @@
   </a>
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/yeeterlol/Eaglerhost">
 </p>
+
 > Automatic tool for selfhosting a Eaglercraft server on Windows & Linux (soon)
-> 
