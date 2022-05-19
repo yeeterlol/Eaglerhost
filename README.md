@@ -1,6 +1,7 @@
-<h1 align="center">Eaglerhost
-> Self hosting for noobies
-</h1>
+<p align="center">
+ <h1>Eaglerhost</h1>
+ > Self hosting for noobies
+</p>
 
 
 Automatically selfhost a Eaglercraft server
