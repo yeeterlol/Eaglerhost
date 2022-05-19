@@ -1,7 +1,3 @@
-<p align="center">
- <h1>Eaglerhost</h1>
- > Self hosting for noobies
-</p>
+<h1 align="center">Eaglerhost</h1>
 
-
-Automatically selfhost a Eaglercraft server
+> Automatic tool for selfhosting on Windows & Linux (soon)
