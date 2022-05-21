@@ -42,6 +42,8 @@ echo Installing Eaglercraft
 powershell Invoke-WebRequest "https://raw.githubusercontent.com/LAX1DUDE/eaglercraft/main/stable-download/stable-download-new.zip" -OutFile "temp.zip"
 powershell Expand-Archive -Path temp.zip 
 powershell Move-Item -Path %cd%/temp/* -Destination %cd%
+rmdir temp
+del temp.zip
 goto startup
 
 :startup
