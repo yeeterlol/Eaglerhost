@@ -64,57 +64,7 @@ echo #By changing the setting below to TRUE you are indicating your agreement to
 echo #You also agree that tacos are tasty, and the best food in the world.>> eula.txt
 echo #Tue May 17 14:59:33 PDT 2022>> eula.txt
 echo eula=true>> eula.txt
-echo #Minecraft server properties>> server.properties
-echo #Tue May 17 15:01:27 PDT 2022>> server.properties
-echo enable-jmx-monitoring=false>> server.properties
-echo rcon.port=25575>> server.properties
-echo enable-command-block=false>> server.properties
-echo gamemode=survival>> server.properties
-echo enable-query=false>> server.properties
-echo level-name=world>> server.properties
-echo motd=A Minecraft Server>> server.properties
-echo query.port=25565>> server.properties
-echo pvp=true>> server.properties
-echo difficulty=easy>> server.properties
-echo network-compression-threshold=256>> server.properties
-echo max-tick-time=60000>> server.properties
-echo require-resource-pack=false>> server.properties
-echo max-players=20>> server.properties
-echo use-native-transport=true>> server.properties
-echo online-mode=false>> server.properties
-echo enable-status=true>> server.properties
-echo allow-flight=false>> server.properties
-echo broadcast-rcon-to-ops=true>> server.properties
-echo view-distance=10>> server.properties
-echo server-ip=>> server.properties
-echo resource-pack-prompt=>> server.properties
-echo allow-nether=true>> server.properties
-echo server-port=25569>> server.properties
-echo enable-rcon=false>> server.properties
-echo sync-chunk-writes=true>> server.properties
-echo op-permission-level=4>> server.properties
-echo prevent-proxy-connections=false>> server.properties
-echo resource-pack=>> server.properties
-echo entity-broadcast-range-percentage=100>> server.properties
-echo rcon.password=>> server.properties
-echo player-idle-timeout=0>> server.properties
-echo debug=false>> server.properties
-echo force-gamemode=false>> server.properties
-echo rate-limit=0>> server.properties
-echo hardcore=false>> server.properties
-echo white-list=false>> server.properties
-echo broadcast-console-to-ops=true>> server.properties
-echo spawn-npcs=true>> server.properties
-echo spawn-animals=true>> server.properties
-echo snooper-enabled=true>> server.properties
-echo function-permission-level=2>> server.properties
-echo text-filtering-config=>> server.properties
-echo spawn-monsters=true>> server.properties
-echo enforce-whitelist=false>> server.properties
-echo resource-pack-sha1=>> server.properties
-echo spawn-protection=16>> server.properties
-echo max-world-size=29999984>> server.properties
-echo  >> server.properties
+powershell Invoke-WebRequest "https://raw.githubusercontent.com/yeeterlol/Eaglerhost/main/storage/server.properties" -OutFile "server.properties"
 echo @echo off >> start.bat
 echo java -Xms2G -Xmx16G -jar paper.jar >> start.bat
 echo pause >> start.bat
