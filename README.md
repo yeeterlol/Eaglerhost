@@ -15,7 +15,9 @@ just too fucking lazy to do some easy shit. We support [Multiport](https://githu
 the [basic server](https://github.com/LAX1DUDE/eaglercraft/tree/main/stable-download) too! If you are too lazy, try today!
 ## Credits
 @yeeterlol for developing the tools
+
 @ayunami2000 for making ayunMultiport
+
 @LAX1Dude for eaglercraft
 ## WIP
 * Linux support
