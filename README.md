@@ -18,6 +18,6 @@ the [basic server](https://github.com/LAX1DUDE/eaglercraft/tree/main/stable-down
 <br>
 [@ayunami2000](https://github.com/ayunami2000) for making ayunMultiport
 <br>
-[@LAX1DUDE](https://github.com/LAX1DUDE)
+[@LAX1DUDE](https://github.com/LAX1DUDE) for eaglercraft
 ## WIP
 * Linux support
