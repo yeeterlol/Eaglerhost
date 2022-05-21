@@ -60,9 +60,6 @@ goto paper
 echo Installing Paper
 cd paper
 powershell Invoke-WebRequest "https://papermc.io/api/v2/projects/paper/versions/1.17.1/builds/411/downloads/paper-1.17.1-411.jar" -OutFile "paper.jar"
-echo #By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).>> eula.txt
-echo #You also agree that tacos are tasty, and the best food in the world.>> eula.txt
-echo #Tue May 17 14:59:33 PDT 2022>> eula.txt
 echo eula=true>> eula.txt
 powershell Invoke-WebRequest "https://raw.githubusercontent.com/yeeterlol/Eaglerhost/main/storage/server.properties" -OutFile "server.properties"
 echo @echo off >> start.bat
@@ -116,16 +113,7 @@ powershell Move-Item -Path %cd%/ayunMultiPort-master/* -Destination %cd%
 rmdir temp
 rmdir ayunMultiPort-master
 del temp.zip
-echo const Net = require('net');>>eagler.js
-echo const { WebSocketServer, WebSocket } = require('ws');>>eagler.js
-echo const fs = require("fs");>>eagler.js
-echo const path = require("path");>>eagler.js
-echo const mime = require("mime-types");>>eagler.js
-echo const bufferReplace = require('buffer-replace');>>eagler.js
-echo const crypto = require('crypto');>>eagler.js
-echo const Jimp = require('jimp');>>eagler.js
-echo >>eagler.js
-echo const listenPort = 80;>>eagler.js
+powershell Invoke-WebRequest https://raw.githubusercontent.com/yeeterlol/Eaglerhost/main/storage/eagler.js
 goto startup
 
 :startup
