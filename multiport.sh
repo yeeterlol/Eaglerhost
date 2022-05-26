@@ -6,8 +6,10 @@ fi
 startup() {
   echo "Starting up proxies"
   sudo apt install tmux
-  tmux new -d -s app node app.js
-  tmux new -d -s eagler node eagler.js
+  chmod +x start.sh
+  chmod +x eagler.sh
+  tmux new -d -s app ./start.sh
+  tmux new -d -s eagler ./eagler.sh
   echo "Starting up PaperMC!"
   cd - 
   java -Xmx2g -Xms2g -jar paper-1.17.1-411.jar
@@ -24,6 +26,8 @@ multiport() {
     cd ayunMultiPort-master
     rm eagler.js
     wget https://raw.githubusercontent.com/yeeterlol/Eaglerhost/main/storage/eagler.js
+    wget https://github.com/yeeterlol/Eaglerhost/raw/main/storage/start.sh
+    https://raw.githubusercontent.com/yeeterlol/Eaglerhost/main/storage/eagler.sh
     startup
 }
 
