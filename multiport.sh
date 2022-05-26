@@ -27,7 +27,7 @@ multiport() {
     rm eagler.js
     wget https://raw.githubusercontent.com/yeeterlol/Eaglerhost/main/storage/eagler.js
     wget https://github.com/yeeterlol/Eaglerhost/raw/main/storage/start.sh
-    https://raw.githubusercontent.com/yeeterlol/Eaglerhost/main/storage/eagler.sh
+    wget https://raw.githubusercontent.com/yeeterlol/Eaglerhost/main/storage/eagler.sh
     startup
 }
 
