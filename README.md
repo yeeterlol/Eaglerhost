@@ -21,3 +21,4 @@ the [basic server](https://github.com/LAX1DUDE/eaglercraft/tree/main/stable-down
 [@LAX1DUDE](https://github.com/LAX1DUDE) for eaglercraft
 ## WIP
 * Fixing Multiport (Linux)
+* Make it a Docker image
